@@ -1,16 +1,15 @@
-import { useState } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import NavBar from './NavBar'
+// import NavBar from './NavBar'
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-      <NavBar></NavBar>
-      {/* <div>
+      {/* <NavBar></NavBar> */}
+      <div>
         <button type="button" className="btn btn-primary">Primary</button>
         <button type="button" className="btn btn-secondary">Secondary</button>
         <button type="button" className="btn btn-success">Success</button>
@@ -21,7 +20,7 @@ function App() {
         <button type="button" className="btn btn-dark">Dark</button>
 
         <button type="button" className="btn btn-link">Link</button>
-      </div> */}
+      </div>
     </>
   )
 }
