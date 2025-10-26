@@ -1,22 +1,12 @@
 import React from 'react'
+import HeroText from './HeroText';
+import Arrow from './Arrow';
 
 const LeftContent = () => {
     return (
-        <div className='h-full w-1/4 bg-amber-300'>
-            {/* <div>
-                <h1 className='font-bold text-[2.5rem]'>
-                    <p>Prospective</p> 
-                    <span className='bg-gray-50 rounded-full px-1.5'>customer</span> 
-                    <p>segmentation</p>
-                </h1>
-            </div>
-            <div>
-                <p>Depending on customer satisfaction and access to banking products, potential target audience can be divided into three groups</p>
-            </div> */}
-
-
-
-            
+        <div className='h-full w-1/3 flex flex-col justify-between'>
+            <HeroText />
+            <Arrow />
         </div>
     )
 }
