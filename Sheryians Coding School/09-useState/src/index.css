@@ -17,3 +17,19 @@ body {
 body {
     background-color: #111;
 }
+
+button {
+  padding: 10px 20px;
+  margin: 20px;
+  color: #333;
+}
+
+h1 {
+  background-color: gainsboro;
+  width: fit-content;
+  font-size: 100px;
+  border-radius: 5px;
+  padding: 10px 90px;
+  margin: 20px;
+  color: #333;
+}
