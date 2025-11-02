@@ -9,6 +9,7 @@ import NotFound from './pages/NotFound'
 import Men from './pages/Men'
 import Women from './pages/Women'
 import Kid from './pages/Kid'
+import Courses from './pages/Courses'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
+        <Route path='/courses' element={<Courses />} />
 
         <Route path='/product' element={<Product />}>
           <Route path='men' element={<Men />} />
