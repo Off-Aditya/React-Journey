@@ -10,15 +10,19 @@ import Men from './pages/Men'
 import Women from './pages/Women'
 import Kid from './pages/Kid'
 import Courses from './pages/Courses'
+import CoursesDetails from './pages/CoursesDetails'
+import Navbar2 from './components/Navbar2'
 
 const App = () => {
   return (
     <div className='h-screen bg-black text-white'>
       <Navbar />
+      <Navbar2 />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         <Route path='/courses' element={<Courses />} />
+        <Route path='/courses/:courseId' element={<CoursesDetails />} />
 
         <Route path='/product' element={<Product />}>
           <Route path='men' element={<Men />} />
